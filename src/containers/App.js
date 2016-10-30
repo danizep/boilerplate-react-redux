@@ -14,7 +14,7 @@ import Works from '../components/Works';
 import Comments from '../components/Comments';
 import Footer from '../components/Footer';
 
-export default class App extends Component {
+export class App extends Component {
     render() {
         const {comments, actions} = this.props;
         return (
